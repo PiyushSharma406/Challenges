@@ -18,7 +18,9 @@ d
 
 First things first - Why Node?
 ===============================
-    Node is just a javascript code that doesn't have stringly typed data structures, which makes it hard and every fucntion input needs to be validated befofe doing any compute on it. I found it challenging to ensure that all the edge cases are covered during the input validation
+    Node is just a javascript code that doesn't have stringly typed data structures, which makes it 
+    hard and every fucntion input needs to be validated befofe doing any compute on it. I found it 
+    challenging to ensure that all the edge cases are covered during the input validation.
 
 Approach
 ====================
@@ -28,26 +30,34 @@ Define a function that takes two parameters named
 
 Assumptions
 ===================
-    There will be at least one key to search
-    Any invalid key will return null
-    The Keys are given in the order as it would appear in the JSON tree
+•	There will be at least one key to search
+    
+•	 Any invalid key will return null
+
+•	The Keys are given in the order as it would appear in the JSON tree
+
 
 Testing
 =================
 I am going to use Mocha javascript testing framework to do the unit testing
-Compute complexity
 
-    Space Complexity O(1)
-    Time Complexity O(N) where N is the depth of the tree.
+Compute complexity
+====================
+•	Space Complexity O(1)
+
+•	Time Complexity O(N) where N is the depth of the tree.
+
 
 Environment
 ================
-    Clone the project
-    Install dependencies
+•	Clone the project
 
-    npm install
+•	Install dependencies
 
-    Test the project
+npm install
 
-    npm test
+•	Test the project
+
+npm test
+
     
